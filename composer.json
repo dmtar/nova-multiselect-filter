@@ -47,6 +47,11 @@
   "config": {
     "sort-packages": true
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/dmtar/nova-translations-loader"
+    }
+  ]
 }
